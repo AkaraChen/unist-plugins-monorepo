@@ -1,7 +1,7 @@
 import { Root } from 'mdast'
 import { Position } from 'unist'
 import { visit } from 'unist-util-visit'
-import { parse, ParsedFile } from './parser'
+import { parse, type ParsedFile } from './parser'
 import { VFile } from 'vfile'
 
 export interface FileMeta extends ParsedFile {
@@ -25,6 +25,6 @@ export function remarkCodeBlockFile() {
     }
 }
 
-export { ParsedFile } from './parser'
+export type { ParsedFile } from './parser'
 
 export default remarkCodeBlockFile
