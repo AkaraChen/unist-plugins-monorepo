@@ -4,7 +4,7 @@ import { visit } from 'unist-util-visit'
 import { parse, ParsedFile } from './parser'
 import { VFile } from 'vfile'
 
-interface FileMeta extends ParsedFile {
+export interface FileMeta extends ParsedFile {
     position: Position
 }
 
@@ -24,5 +24,7 @@ export function remarkCodeBlockFile() {
         })
     }
 }
+
+export { ParsedFile } from './parser'
 
 export default remarkCodeBlockFile
