@@ -1,0 +1,23 @@
+{
+    "name": "unist-plugins-monorepo",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "format": "prettier --write .",
+        "typecheck": "tsc --noEmit",
+        "test": "vitest"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@akrc/tsconfig": "1.1.0",
+        "@types/mdast": "^4.0.4",
+        "@types/unist": "^3.0.3",
+        "prettier": "3.4.2",
+        "turbo": "2.3.3",
+        "typescript": "5.7.2",
+        "vitest": "2.1.8"
+    }
+}
