@@ -1,5 +1,5 @@
 {
-    "name": "remark-hashtag",
+    "name": "remark-plugin-hashtag",
     "version": "1.0.0",
     "description": "",
     "main": "./dist/es/index.js",

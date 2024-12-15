@@ -5,14 +5,14 @@ Extract hashtag from markdown file, emit to `vfile.data.tags`, and remove hash s
 ## Install
 
 ```sh
-npm install remark-hashtag
+npm install remark-plugin-hashtag
 ```
 
 ## Usage
 
 ```ts
 import { remark } from 'remark'
-import hashtag from 'remark-hashtag'
+import hashtag from 'remark-plugin-hashtag'
 
 const processor = remark().use(hashtag, { removeHash: false })
 ```

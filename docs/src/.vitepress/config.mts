@@ -15,6 +15,10 @@ export default defineConfig({
                         text: 'remark-plugin-code-block-file',
                         link: '/remark/code-block-file',
                     },
+                    {
+                        text: 'remark-plugin-hashtag',
+                        link: '/remark/hashtag',
+                    }
                 ],
             },
         ],
