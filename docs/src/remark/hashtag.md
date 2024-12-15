@@ -17,4 +17,4 @@ import hashtag from 'remark-hashtag'
 const processor = remark().use(hashtag, { removeHash: false })
 ```
 
-For the options of hashtag, see .
+For the options of hashtag, see [HashTagOptions](https://github.com/AkaraChen/unist-plugins-monorepo/blob/main/remark/hashtag/src/index.ts#L5-L11).
