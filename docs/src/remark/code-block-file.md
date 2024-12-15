@@ -3,11 +3,11 @@
 Parse these code block syntax as multiple files, for example:
 
 ```ts
-// file: src/index.ts
+// src/index.ts
 
 export const a = 1
 
-// file: src/other.ts
+// src/other.ts
 
 export const b = 2
 ```
