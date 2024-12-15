@@ -12,11 +12,11 @@ export default defineConfig({
                 text: 'remark',
                 items: [
                     {
-                        text: 'remark-plugin-code-block-file',
+                        text: 'code-block-file',
                         link: '/remark/code-block-file',
                     },
                     {
-                        text: 'remark-plugin-hashtag',
+                        text: 'hashtag',
                         link: '/remark/hashtag',
                     }
                 ],
