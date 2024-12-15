@@ -15,6 +15,9 @@ export function parse(input: string): ParsedResult {
 
     while ((match = fileRegex.exec(input)) !== null) {
         const [, name, content] = match
+        if (!name || !content) {
+            throw new Error('Invalid file block')
+        }
         files.push({ name, content: content.trim() })
     }
 

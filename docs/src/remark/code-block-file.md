@@ -66,7 +66,7 @@ import { remark } from 'remark'
 import { codeBlockFile } from 'remark-code-block-file'
 
 const processor = remark().use(codeBlockFile)
-const result = processor.processSync("Your markdown content")
+const result = processor.processSync('Your markdown content')
 
 console.log(result.data.files) // Array of `FileMeta`
 ```

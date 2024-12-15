@@ -1,9 +1,10 @@
 {
-    "name": "remark-plugin-code-block-file",
-    "version": "1.0.1",
+    "name": "remark-hashtag",
+    "version": "1.0.0",
     "description": "",
     "main": "./dist/es/index.js",
     "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
         "build": "bunchee",
         "dev": "bunchee --watch"
     },
@@ -11,6 +12,9 @@
     "author": "",
     "license": "ISC",
     "type": "module",
+    "devDependencies": {
+        "bunchee": "6.0.3"
+    },
     "files": [
         "dist"
     ],
@@ -29,6 +33,6 @@
         }
     },
     "dependencies": {
-        "unist-util-visit": "^5.0.0"
+        "mdast-util-find-and-replace": "^3.0.1"
     }
 }
