@@ -1,6 +1,6 @@
 {
     "name": "remark-plugin-code-block-file",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "",
     "main": "./dist/es/index.js",
     "scripts": {
@@ -8,7 +8,11 @@
         "dev": "bunchee --watch"
     },
     "keywords": [],
-    "author": "",
+    "author": {
+        "name": "AkaraChen",
+        "email": "akarachen@outlook.com",
+        "url": "https://github.com/AkaraChen"
+    },
     "license": "ISC",
     "type": "module",
     "files": [
@@ -30,5 +34,28 @@
     },
     "dependencies": {
         "unist-util-visit": "^5.0.0"
+    },
+    "homepage": "https://github.com/akarachen/remark-plugin-code-block-file",
+    "bugs": {
+        "url": "https://github.com/akarachen/remark-plugin-code-block-file/issues",
+        "email": "akarachen@outlook.com"
+    },
+    "contributors": [
+        {
+            "name": "AkaraChen",
+            "email": "akarachen@outlook.com",
+            "url": "https://github.com/AkaraChen"
+        }
+    ],
+    "maintainers": [
+        {
+            "name": "AkaraChen",
+            "email": "akarachen@outlook.com",
+            "url": "https://github.com/AkaraChen"
+        }
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/akarachen/remark-plugin-code-block-file.git"
     }
 }
