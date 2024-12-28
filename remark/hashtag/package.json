@@ -1,6 +1,6 @@
 {
     "name": "remark-plugin-hashtag",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "",
     "main": "./dist/es/index.js",
     "scripts": {
@@ -8,7 +8,11 @@
         "dev": "bunchee --watch"
     },
     "keywords": [],
-    "author": "",
+    "author": {
+        "name": "AkaraChen",
+        "email": "akarachen@outlook.com",
+        "url": "https://github.com/AkaraChen"
+    },
     "license": "ISC",
     "type": "module",
     "devDependencies": {
@@ -33,5 +37,28 @@
     },
     "dependencies": {
         "mdast-util-find-and-replace": "^3.0.1"
+    },
+    "homepage": "https://github.com/akarachen/remark-plugin-hashtag",
+    "bugs": {
+        "url": "https://github.com/akarachen/remark-plugin-hashtag/issues",
+        "email": "akarachen@outlook.com"
+    },
+    "contributors": [
+        {
+            "name": "AkaraChen",
+            "email": "akarachen@outlook.com",
+            "url": "https://github.com/AkaraChen"
+        }
+    ],
+    "maintainers": [
+        {
+            "name": "AkaraChen",
+            "email": "akarachen@outlook.com",
+            "url": "https://github.com/AkaraChen"
+        }
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/akarachen/remark-plugin-hashtag.git"
     }
 }
