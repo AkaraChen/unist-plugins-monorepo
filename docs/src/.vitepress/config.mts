@@ -18,6 +18,10 @@ export default defineConfig({
                     {
                         text: 'hashtag',
                         link: '/remark/hashtag',
+                    },
+                    {
+                        text: 'video',
+                        link: '/remark/video',
                     }
                 ],
             },

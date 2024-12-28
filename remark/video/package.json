@@ -1,0 +1,38 @@
+{
+    "name": "@akrc/remark-video",
+    "version": "1.0.0",
+    "description": "",
+    "main": "./dist/es/index.js",
+    "scripts": {
+        "build": "bunchee",
+        "dev": "bunchee --watch"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "type": "module",
+    "devDependencies": {
+        "bunchee": "6.0.4"
+    },
+    "files": [
+        "dist"
+    ],
+    "module": "./dist/es/index.js",
+    "types": "./dist/es/index.d.ts",
+    "exports": {
+        ".": {
+            "import": {
+                "types": "./dist/es/index.d.ts",
+                "default": "./dist/es/index.js"
+            },
+            "require": {
+                "types": "./dist/cjs/index.d.cts",
+                "default": "./dist/cjs/index.cjs"
+            }
+        }
+    },
+    "dependencies": {
+        "mime": "^4.0.6",
+        "unist-util-visit": "^5.0.0"
+    }
+}
