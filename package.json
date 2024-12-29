@@ -5,7 +5,8 @@
     "scripts": {
         "format": "prettier --write .",
         "typecheck": "tsc --noEmit",
-        "test": "vitest"
+        "test": "vitest",
+        "bump": "bumpp && pnpm -r publish"
     },
     "devDependencies": {
         "@akrc/tsconfig": "1.1.0",
