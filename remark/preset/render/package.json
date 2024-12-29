@@ -1,0 +1,39 @@
+{
+    "name": "@akrc/remark-preset-render",
+    "version": "1.0.0",
+    "description": "",
+    "main": "./dist/es/index.js",
+    "scripts": {
+        "build": "bunchee",
+        "dev": "bunchee --watch"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "type": "module",
+    "files": [
+        "dist"
+    ],
+    "module": "./dist/es/index.js",
+    "types": "./dist/es/index.d.ts",
+    "exports": {
+        ".": {
+            "import": {
+                "types": "./dist/es/index.d.ts",
+                "default": "./dist/es/index.js"
+            },
+            "require": {
+                "types": "./dist/cjs/index.d.cts",
+                "default": "./dist/cjs/index.cjs"
+            }
+        }
+    },
+    "dependencies": {
+        "@akrc/remark-video": "^1.0.0",
+        "remark-frontmatter": "^5.0.0",
+        "remark-gfm": "^4.0.0",
+        "remark-mdx-frontmatter": "^5.0.0",
+        "remark-plugin-hashtag": "^1.0.1",
+        "unified-util-composer": "workspace:*"
+    }
+}

@@ -1,9 +1,10 @@
 {
-    "name": "clean",
+    "name": "@akrc/remark-cli-preset",
     "version": "1.0.0",
     "description": "",
     "main": "./dist/es/index.js",
     "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
         "build": "bunchee",
         "dev": "bunchee --watch"
     },
@@ -27,12 +28,5 @@
                 "default": "./dist/cjs/index.cjs"
             }
         }
-    },
-    "dependencies": {
-        "remark-frontmatter": "^5.0.0",
-        "remark-gfm": "^4.0.0",
-        "remark-parse": "^11.0.0",
-        "remark-stringify": "^11.0.0",
-        "strip-markdown": "^6.0.0"
     }
 }

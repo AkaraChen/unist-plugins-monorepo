@@ -1,4 +1,7 @@
 packages:
     - 'remark/**'
+    - 'rehype/**'
     - 'docs'
-    - 'preset/**'
+    - 'nextjs'
+    - 'unist/**'
+    - 'examples/**'

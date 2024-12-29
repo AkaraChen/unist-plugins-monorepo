@@ -1,0 +1,40 @@
+{
+    "name": "@akrc/rehype-preset-render",
+    "version": "1.0.0",
+    "description": "",
+    "main": "./dist/es/index.js",
+    "scripts": {
+        "build": "bunchee",
+        "dev": "bunchee --watch"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "type": "module",
+    "files": [
+        "dist"
+    ],
+    "module": "./dist/es/index.js",
+    "types": "./dist/es/index.d.ts",
+    "exports": {
+        ".": {
+            "import": {
+                "types": "./dist/es/index.d.ts",
+                "default": "./dist/es/index.js"
+            },
+            "require": {
+                "types": "./dist/cjs/index.d.cts",
+                "default": "./dist/cjs/index.cjs"
+            }
+        }
+    },
+    "dependencies": {
+        "@akrc/shiki-preset": "workspace:*",
+        "@shikijs/rehype": "^1.24.4",
+        "rehype-mdx-import-media": "^1.2.0",
+        "unified-util-composer": "workspace:*"
+    },
+    "devDependencies": {
+        "@types/hast": "^3.0.4"
+    }
+}
