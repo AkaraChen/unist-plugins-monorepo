@@ -8,7 +8,11 @@
         "dev": "bunchee --watch"
     },
     "keywords": [],
-    "author": "",
+    "author": {
+        "name": "AkaraChen",
+        "email": "akarachen@outlook.com",
+        "url": "https://github.com/AkaraChen"
+    },
     "license": "ISC",
     "type": "module",
     "files": [
@@ -35,5 +39,31 @@
         "remark-mdx-frontmatter": "^5.0.0",
         "remark-plugin-hashtag": "^1.0.1",
         "unified-util-composer": "workspace:*"
+    },
+    "publishConfig": {
+        "access": "public"
+    },
+    "homepage": "https://github.com/akarachen/@akrc/remark-preset-render",
+    "bugs": {
+        "url": "https://github.com/akarachen/@akrc/remark-preset-render/issues",
+        "email": "akarachen@outlook.com"
+    },
+    "contributors": [
+        {
+            "name": "AkaraChen",
+            "email": "akarachen@outlook.com",
+            "url": "https://github.com/AkaraChen"
+        }
+    ],
+    "maintainers": [
+        {
+            "name": "AkaraChen",
+            "email": "akarachen@outlook.com",
+            "url": "https://github.com/AkaraChen"
+        }
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/akarachen/@akrc/remark-preset-render.git"
     }
 }

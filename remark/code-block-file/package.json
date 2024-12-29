@@ -57,5 +57,8 @@
     "repository": {
         "type": "git",
         "url": "git+https://github.com/akarachen/remark-plugin-code-block-file.git"
+    },
+    "publishConfig": {
+        "access": "public"
     }
 }

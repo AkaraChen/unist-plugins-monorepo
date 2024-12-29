@@ -4,7 +4,11 @@
     "description": "",
     "main": "./dist/es/index.js",
     "keywords": [],
-    "author": "",
+    "author": {
+        "name": "AkaraChen",
+        "email": "akarachen@outlook.com",
+        "url": "https://github.com/AkaraChen"
+    },
     "license": "ISC",
     "type": "module",
     "files": [
@@ -30,10 +34,36 @@
     },
     "dependencies": {
         "@akrc/remark-title": "workspace:*",
-        "unified-util-composer": "workspace:*",
         "remark-frontmatter": "^5.0.0",
         "remark-mdx-frontmatter": "^5.0.0",
         "remark-plugin-code-block-file": "^1.0.2",
-        "remark-plugin-hashtag": "^1.0.1"
+        "remark-plugin-hashtag": "^1.0.1",
+        "unified-util-composer": "workspace:*"
+    },
+    "publishConfig": {
+        "access": "public"
+    },
+    "homepage": "https://github.com/akarachen/@akrc/remark-preset-meta",
+    "bugs": {
+        "url": "https://github.com/akarachen/@akrc/remark-preset-meta/issues",
+        "email": "akarachen@outlook.com"
+    },
+    "contributors": [
+        {
+            "name": "AkaraChen",
+            "email": "akarachen@outlook.com",
+            "url": "https://github.com/AkaraChen"
+        }
+    ],
+    "maintainers": [
+        {
+            "name": "AkaraChen",
+            "email": "akarachen@outlook.com",
+            "url": "https://github.com/AkaraChen"
+        }
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/akarachen/@akrc/remark-preset-meta.git"
     }
 }

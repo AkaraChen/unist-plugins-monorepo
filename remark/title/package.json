@@ -8,7 +8,11 @@
         "dev": "bunchee --watch"
     },
     "keywords": [],
-    "author": "",
+    "author": {
+        "name": "AkaraChen",
+        "email": "akarachen@outlook.com",
+        "url": "https://github.com/AkaraChen"
+    },
     "license": "ISC",
     "type": "module",
     "files": [
@@ -30,5 +34,31 @@
     },
     "dependencies": {
         "unist-util-visit": "^5.0.0"
+    },
+    "publishConfig": {
+        "access": "public"
+    },
+    "homepage": "https://github.com/akarachen/@akrc/remark-title",
+    "bugs": {
+        "url": "https://github.com/akarachen/@akrc/remark-title/issues",
+        "email": "akarachen@outlook.com"
+    },
+    "contributors": [
+        {
+            "name": "AkaraChen",
+            "email": "akarachen@outlook.com",
+            "url": "https://github.com/AkaraChen"
+        }
+    ],
+    "maintainers": [
+        {
+            "name": "AkaraChen",
+            "email": "akarachen@outlook.com",
+            "url": "https://github.com/AkaraChen"
+        }
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/akarachen/@akrc/remark-title.git"
     }
 }

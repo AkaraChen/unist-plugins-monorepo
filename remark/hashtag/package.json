@@ -60,5 +60,8 @@
     "repository": {
         "type": "git",
         "url": "git+https://github.com/akarachen/remark-plugin-hashtag.git"
+    },
+    "publishConfig": {
+        "access": "public"
     }
 }
