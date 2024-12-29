@@ -33,11 +33,11 @@
         "dev": "bunchee --watch"
     },
     "dependencies": {
+        "@akrc/remark-matter": "workspace:*",
         "@akrc/remark-title": "workspace:*",
         "remark-frontmatter": "^5.0.0",
-        "remark-mdx-frontmatter": "^5.0.0",
-        "remark-plugin-code-block-file": "^1.0.2",
-        "remark-plugin-hashtag": "^1.0.1",
+        "remark-plugin-code-block-file": "workspace:*",
+        "remark-plugin-hashtag": "workspace:*",
         "unified-util-composer": "workspace:*"
     },
     "publishConfig": {

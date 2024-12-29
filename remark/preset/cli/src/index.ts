@@ -1,12 +1,21 @@
-export const cliPreset = {
+import remarkPresetLintConsistent from 'remark-preset-lint-consistent'
+import remarkPresetLintRecommended from 'remark-preset-lint-recommended'
+import remarkPresetLintMarkdownStyleGuide from 'remark-preset-lint-markdown-style-guide'
+import remarkMdx from 'remark-mdx'
+import remarkLintMaximumLineLength from 'remark-lint-maximum-line-length'
+import remarkLintOrderedListMarkerValue from 'remark-lint-ordered-list-marker-value'
+import remarkLintFileExtension from 'remark-lint-file-extension'
+import type { Preset } from 'unified'
+
+export const cliPreset: Preset = {
     plugins: [
-        'remark-preset-lint-consistent',
-        'remark-preset-lint-recommended',
-        'remark-preset-lint-markdown-style-guide',
-        'remark-mdx',
-        ['remark-lint-maximum-line-length', false],
-        ['remark-lint-ordered-list-marker-value', false],
-        ['remark-lint-file-extension', false],
+        remarkPresetLintConsistent,
+        remarkPresetLintRecommended,
+        remarkPresetLintMarkdownStyleGuide,
+        remarkMdx,
+        [remarkLintMaximumLineLength, false],
+        [remarkLintOrderedListMarkerValue, false],
+        [remarkLintFileExtension, false],
     ],
 }
 

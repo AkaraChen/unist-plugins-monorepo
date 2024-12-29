@@ -43,7 +43,6 @@ export default function remarkTitle(options: TitleOptions = {}) {
                     return EXIT
                 }
             } else if (matcher instanceof RegExp) {
-                console.log(matcher, text)
                 if (matcher.test(text)) {
                     write()
                     return EXIT

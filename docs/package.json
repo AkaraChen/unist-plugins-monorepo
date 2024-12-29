@@ -3,16 +3,18 @@
     "version": "1.1.0",
     "private": true,
     "description": "",
-    "main": "index.js",
     "scripts": {
         "dev": "vitepress dev src",
         "build": "vitepress build src",
-        "preview": "vitepress preview src"
+        "preview": "vitepress preview src",
+        "lint": "remark src --use @akrc/remark-cli-preset"
     },
     "keywords": [],
     "author": "",
     "license": "ISC",
     "devDependencies": {
+        "@akrc/remark-cli-preset": "workspace:*",
+        "remark-cli": "^12.0.1",
         "vitepress": "1.5.0"
     }
 }

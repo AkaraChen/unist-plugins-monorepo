@@ -1,6 +1,6 @@
 {
-    "name": "@akrc/remark-preset-clean",
-    "version": "1.1.0",
+    "name": "@akrc/remark-matter",
+    "version": "1.0.0",
     "description": "",
     "main": "./dist/es/index.js",
     "scripts": {
@@ -33,17 +33,11 @@
         }
     },
     "dependencies": {
-        "remark-frontmatter": "^5.0.0",
-        "remark-gfm": "^4.0.0",
-        "strip-markdown": "^6.0.0",
-        "unified-util-composer": "workspace:*"
+        "vfile-matter": "^5.0.0"
     },
-    "publishConfig": {
-        "access": "public"
-    },
-    "homepage": "https://github.com/akarachen/@akrc/remark-preset-clean",
+    "homepage": "https://github.com/akarachen/matter",
     "bugs": {
-        "url": "https://github.com/akarachen/@akrc/remark-preset-clean/issues",
+        "url": "https://github.com/akarachen/matter/issues",
         "email": "akarachen@outlook.com"
     },
     "contributors": [
@@ -62,10 +56,6 @@
     ],
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/akarachen/@akrc/remark-preset-clean.git"
-    },
-    "devDependencies": {
-        "remark-parse": "^11.0.0",
-        "remark-stringify": "^11.0.0"
+        "url": "git+https://github.com/akarachen/matter.git"
     }
 }
