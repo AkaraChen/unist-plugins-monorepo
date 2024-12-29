@@ -22,7 +22,7 @@ export default defineConfig({
                     {
                         text: 'video',
                         link: '/remark/video',
-                    }
+                    },
                 ],
             },
         ],

@@ -1,5 +1,5 @@
 {
-    "name": "@akrc/remark-video",
+    "name": "clean",
     "version": "1.0.0",
     "description": "",
     "main": "./dist/es/index.js",
@@ -29,7 +29,10 @@
         }
     },
     "dependencies": {
-        "mime": "^4.0.6",
-        "unist-util-visit": "^5.0.0"
+        "remark-frontmatter": "^5.0.0",
+        "remark-gfm": "^4.0.0",
+        "remark-parse": "^11.0.0",
+        "remark-stringify": "^11.0.0",
+        "strip-markdown": "^6.0.0"
     }
 }
