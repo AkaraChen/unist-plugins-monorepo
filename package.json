@@ -6,7 +6,7 @@
         "format": "prettier --write .",
         "typecheck": "tsc --noEmit",
         "test": "vitest",
-        "bump": "bumpp && pnpm -r publish"
+        "bump": "bumpp && turbo build && pnpm -r publish"
     },
     "devDependencies": {
         "@akrc/tsconfig": "1.1.0",
